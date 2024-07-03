@@ -434,3 +434,9 @@ footer [class*='fa-'] {
     margin-right: auto;
   }
 }
+
+@media (min-width: 400px) {
+  body {
+    font-size: 1px; /* Smaller text for tablets and mobile */
+  }
+}
