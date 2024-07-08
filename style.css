@@ -190,7 +190,7 @@ a {
   /* text-decoration: none; */
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   font-weight: 800;
   flex-flow: row wrap;
   /* flex-direction & flex-wrap */
@@ -208,7 +208,7 @@ a {
 }
 
 #projectOdd img {
-  margin: 2rem 0 4rem 0;
+  margin: 1rem 1rem;
   border-left: 2px solid var(--white);
   border-top: 2px solid var(--white);
   border-radius: 25px;
@@ -219,7 +219,7 @@ a {
 /* projectEven */
 
 #projectEven img {
-  margin: 2rem 0 4rem 0;
+  margin: 1rem 1rem;
   border-right: 2px solid var(--white);
   border-bottom: 2px solid var(--white);
   border-radius: 25px;
@@ -418,6 +418,19 @@ footer [class*='fa-'] {
 
 .copyrighted {
   font-size: 0.9rem;
+}
+
+.addPadding {
+  padding: 2rem 0.5rem;
+}
+
+.addPadding2 {
+  padding: 2rem;
+}
+
+.addPadding3 {
+  padding: 2rem;
+  text-align: end;
 }
 
 /* media queries, this is for DESKTOP view not mobile*/
