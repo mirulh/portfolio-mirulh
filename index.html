@@ -192,9 +192,17 @@
                 <li><a href="https://github.com/mirulh"><span class="fa-brands fa-github"></span></a></li>
             </ul>
         </div>
-        <div class="copyrighted">&copy;2023 AmirulHaqem. All rights reserved. </div>
+        <div class="copyrighted">
+          &copy;<span id="displayYear"></span>
+          AmirulHaqem. All rights reserved.
+        </div>
     </footer>
   </body>
 </html>
+
+<script>
+  const d = new Date();
+  document.getElementById("displayYear").innerHTML = d.getFullYear();
+</script> 
 
 <!-- normally a webpage only requires one h1 tag so use it appropriately -->
